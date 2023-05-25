@@ -1,0 +1,112 @@
+.footer {
+    margin-top: 185px;
+    &__roof {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 139px;
+        height: 52px;
+        &:hover {
+            text-decoration: none;
+            color: #101828;
+        }
+        img {
+            display: block;
+            width: 52px;
+            height: 52px;
+        }
+    }
+    &__ready {
+        font-weight: 500;
+        margin-left: 545px;
+    }
+    &__wrapper {
+        margin-top: 45px;
+        padding: 46px 0;
+        display: grid;
+        grid-template-columns: 205px 138px 132px 129px 138px;
+        gap: 89px;
+        border-top: 2px solid #D6D8DD;
+        border-bottom: 2px solid #D6D8DD;
+    }
+    &__contacts {
+        &-adress {
+            margin-top: 9px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #969696;
+        }
+        &-phone {
+            margin-top: 7px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #444E62;
+        }
+        &-email {
+            margin-top: 3px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #4BB4FF;
+        }
+        &-social {
+            margin-top: 13px;
+        }
+    }
+    &__item {
+        &-menu {
+            margin-bottom: 0;
+        }
+        &-link {
+            list-style-type: none;
+            a {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                color: #969696;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__copyright {
+        margin: 25px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-official {
+            font-weight: 500;
+        }
+        &-items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-item {
+            margin-left: 18px;
+            a {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                color: #969696;
+                &:hover {
+                    color: #969696;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

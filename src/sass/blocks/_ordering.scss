@@ -1,0 +1,104 @@
+.ordering {
+    margin-top: 110px;
+    height: 1020px;
+    &__title {
+        margin-top: 42px;
+        text-align: center;
+    }
+    &__itemsFirst {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 62px;
+    }
+    &__item {
+        width: 285px;
+        height: 320px;
+        padding: 46px 61px;
+        background: #FFF3EA;
+        border-radius: 8px;
+        &-img {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background: #FFF;
+        }
+        &:nth-child(2) {
+            background: #FDE2E4;
+        }
+        &:nth-child(3) {
+            background: #DBECE5;
+        }
+
+        &-title {
+            margin-top: 22px;
+            text-align: center;
+        }
+        &-text {
+            margin-top: 35px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    &__arrowRightFirst {
+        position: absolute;
+        top: 160px;
+        left: 305px;
+    }
+    &__arrowRightSecond {
+        position: absolute;
+        top: 160px;
+        left: 710px;
+    }
+    &__itemsSecond {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 128px;
+    }
+    &__item2 {
+        width: 285px;
+        height: 320px;
+        margin-right: 128px;
+        padding: 46px 61px;
+        background: #DBECE5;
+        border-radius: 8px;
+        &-img {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background: #FFF;
+        }
+        &:nth-child(2) {
+            margin-right: 0;
+            background: #D1ECFD;
+        }
+        &-title {
+            margin-top: 22px;
+            text-align: center;
+        }
+        &-text {
+            margin-top: 35px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    &__arrowLeft {
+        position: absolute;
+        top: 160px;
+        left: 500px;
+    }
+    &__arrowDown {
+        position: absolute;
+        top: -66px;
+        right: 75px;
+    }
+}

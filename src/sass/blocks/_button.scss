@@ -1,0 +1,100 @@
+.button {
+    width: 137px;
+    height: 45px;
+    background: #101828;
+    border-radius: 47px;
+    border: none;
+    &_promo {
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 167px;
+        padding-left: 21px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 26px;
+            top: 54%;
+            transform: translateY(-50%);
+            width: 22px;
+            height: 13px;
+            background: url('../../icons/promo/arrow_white.png') center (center / cover) no-repeat;
+        }
+        &_white {
+            color: #101828;
+            background: #FFFFFF ;
+            &::after {
+                right: 17px;
+                background: url('../../icons/promo/arrow_black.png') center (center / cover) no-repeat;
+            }
+        }
+    }
+    &_products {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 67px;
+        height: 23px;
+        background: #BEE1E6;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 26px;
+        color: #006D77;
+    }
+    &_discount {
+        position: absolute;
+        top: 21px;
+        left: 15px;
+        width: 39px;
+        height: 15px;
+        background: #101828;
+        border-radius: 25px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        z-index: 10;
+    }
+    &_ordering {
+        display: block;
+        margin: 0 auto;
+        width: 165px;
+        height: 36px;
+        background: #FFF3EA;
+        border-radius: 48px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #E29578;
+    }
+    &_footer {
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 23px;
+        width: 225px;
+        height: 45px;
+        background: #101828;
+        border-radius: 38px;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 26px;
+            top: 54%;
+            transform: translateY(-50%);
+            width: 22px;
+            height: 13px;
+            background: url('../../icons/promo/arrow_white.png') center (center / cover) no-repeat;
+        }
+    }
+}
